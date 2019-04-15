@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca55a640-f525-4e64-b923-da7c85f80b1d" name="Default Changelist" comment="" />
+    <list default="true" id="ca55a640-f525-4e64-b923-da7c85f80b1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PagesElements/DropDownElemnts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PagesElements/RadioButtonsElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/DropDownBoxHandlings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,12 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Seleniums_Handlings/Dependencies_Import.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="83">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Seleniums_Handlings/CreatingWebElment.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Seleniums_Handlings/DropDownBoxHandlings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="210">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,6 +52,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PagesElements/DropDownElemnts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -54,12 +74,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" />
         <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/Dependencies_Import.java" />
         <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/CreatingWebElment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/RadioButton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PagesElements/RadioButtonsElement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PagesElements/DropDownElemnts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/DropDownBoxHandlings.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" />
       </list>
     </option>
   </component>
@@ -94,18 +122,18 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="49" />
     <option name="y" value="35" />
-    <option name="width" value="2515" />
-    <option name="height" value="1525" />
+    <option name="width" value="2519" />
+    <option name="height" value="1528" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,17 +165,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PagesElements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seleniums_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seleniums_Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Seleniums_Handlings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seleniums_Fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seleniums_Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555009522717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555350027713" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RunDashboard">
@@ -162,21 +207,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreatingWebElment.TestFaceBook">
-    <configuration name="Dependencies_Import" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.Dependencies_Import" />
-      <module name="Seleniums_Fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seleniums_Handlings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreatingWebElment.TestFaceBook" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DropDownBoxHandlings">
+    <configuration name="DropDownBoxHandlings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniums_Fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -185,8 +217,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Seleniums_Handlings" />
-      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.CreatingWebElment" />
-      <option name="METHOD_NAME" value="TestFaceBook" />
+      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.DropDownBoxHandlings" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownBoxHandlings.TestDaysDropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Seleniums_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seleniums_Handlings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Seleniums_Handlings" />
+      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.DropDownBoxHandlings" />
+      <option name="METHOD_NAME" value="TestDaysDropDown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,7 +242,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dependencies_Import.testingBrowsers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniums_Fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -203,8 +251,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Seleniums_Handlings" />
-      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.Dependencies_Import" />
-      <option name="METHOD_NAME" value="testingBrowsers" />
+      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.RadioButton" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioButton.TestFemaleRadioButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Seleniums_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seleniums_Handlings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Seleniums_Handlings" />
+      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.RadioButton" />
+      <option name="METHOD_NAME" value="TestFemaleRadioButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioButton.TestMaleRadioButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Seleniums_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seleniums_Handlings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Seleniums_Handlings" />
+      <option name="MAIN_CLASS_NAME" value="Seleniums_Handlings.RadioButton" />
+      <option name="METHOD_NAME" value="TestMaleRadioButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -214,9 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreatingWebElment.TestFaceBook" />
-        <item itemvalue="TestNG.Dependencies_Import.testingBrowsers" />
-        <item itemvalue="Application.Dependencies_Import" />
+        <item itemvalue="TestNG.DropDownBoxHandlings" />
+        <item itemvalue="TestNG.RadioButton" />
+        <item itemvalue="TestNG.RadioButton.TestMaleRadioButton" />
+        <item itemvalue="TestNG.RadioButton.TestFemaleRadioButton" />
+        <item itemvalue="TestNG.DropDownBoxHandlings.TestDaysDropDown" />
       </list>
     </recent_temporary>
   </component>
@@ -234,61 +318,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Dependencies_Import_testingBrowsers - 2019.04.11 at 14h 27m 35s.xml">
-      <configuration name="Dependencies_Import.testingBrowsers" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 06m 45s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Dependencies_Import_testingBrowsers - 2019.04.11 at 14h 29m 38s.xml">
-      <configuration name="Dependencies_Import.testingBrowsers" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 09m 08s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Dependencies_Import_testingBrowsers - 2019.04.11 at 14h 30m 13s.xml">
-      <configuration name="Dependencies_Import.testingBrowsers" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 13m 27s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreatingWebElment_TestFaceBook - 2019.04.11 at 14h 33m 33s.xml">
-      <configuration name="CreatingWebElment.TestFaceBook" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 14m 24s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreatingWebElment_TestFaceBook - 2019.04.11 at 14h 52m 26s.xml">
-      <configuration name="CreatingWebElment.TestFaceBook" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 20m 20s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreatingWebElment_TestFaceBook - 2019.04.11 at 14h 57m 23s.xml">
-      <configuration name="CreatingWebElment.TestFaceBook" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 22m 39s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreatingWebElment_TestFaceBook - 2019.04.11 at 14h 57m 58s.xml">
-      <configuration name="CreatingWebElment.TestFaceBook" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 25m 31s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CreatingWebElment_TestFaceBook - 2019.04.11 at 15h 01m 53s.xml">
-      <configuration name="CreatingWebElment.TestFaceBook" configurationId="TestNG" />
+    <history-entry file="RadioButton - 2019.04.15 at 13h 29m 34s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RadioButton - 2019.04.15 at 13h 31m 46s.xml">
+      <configuration name="RadioButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DropDownBoxHandlings - 2019.04.15 at 13h 38m 58s.xml">
+      <configuration name="DropDownBoxHandlings" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1477" height="888" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24946696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329235" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2568306" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22677596" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32977968" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329235" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32977968" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -299,17 +389,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Seleniums_Handlings/Dependencies_Import.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="1230">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -318,8 +401,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Seleniums_Handlings/CreatingWebElment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="600">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PagesElements/RadioButtonsElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Seleniums_Handlings/RadioButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PagesElements/DropDownElemnts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Seleniums_Handlings/DropDownBoxHandlings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
