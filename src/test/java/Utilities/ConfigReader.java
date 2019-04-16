@@ -4,21 +4,22 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ConfigReader {
+   static Properties config;
 
-    public static String getProperties(String name) {
-        String xx="";
+    static {
         try {
             FileInputStream file = new FileInputStream("src/test/java/utilities/ConfigurationReader.properties");
-            Properties config = new Properties();
+            config = new Properties();
             config.load(file);
-            xx = config.getProperty(name);
+        }catch(Exception e){}
+    }
 
-        } catch (Exception e) { }
-            return xx;
+    public static String getProperties(String name) {
+            return  config.getProperty(name);
     }
 
     public static void main(String[] args) throws Exception {
-        System.out.println( getProperties("FBWebsite") );
+        System.out.println( ConfigReader.getProperties("FBWebsite") );
         System.out.println(  getProperties("GGWebSite") );
 
 
