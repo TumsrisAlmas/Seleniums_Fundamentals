@@ -1,12 +1,10 @@
 package Utilities;
 
-import PagesElements.DropDownElemnts;
-import PagesElements.RadioButtonsElement;
+import PagesElements.FaceBookElements;
+import PagesElements.GoogleElements;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import javafx.scene.layout.Priority;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -23,13 +21,15 @@ public class TestBase {
         driver=new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.navigate().to( ConfigReader.getProperties("GGWebSite"));
 
     }
 
     @BeforeMethod
     public void setup02(){
         // this before method is to run each weblemnt page' constructor. (PageFactory).
-        new RadioButtonsElement();  new DropDownElemnts();
+        new FaceBookElements();
+        new GoogleElements();
 
     }
 

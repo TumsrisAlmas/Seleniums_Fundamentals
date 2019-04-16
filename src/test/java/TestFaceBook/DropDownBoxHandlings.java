@@ -1,9 +1,9 @@
-package Seleniums_Handlings;
+package TestFaceBook;
 
 import Utilities.*;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import static PagesElements.DropDownElemnts.*;
+import static PagesElements.FaceBookElements.*;
 
 public class DropDownBoxHandlings extends TestBase {
 
@@ -13,7 +13,6 @@ public class DropDownBoxHandlings extends TestBase {
 
         // implicity wait makes time out for elemnt to be found, only applies for findElemnt(s) method
             // only need to declarer one time
-        driver.navigate().to("https://www.facebook.com");
 
         Select slect=new Select(monthBox);
         // what ever options in monthbox dropdown box will be avilable to select.
@@ -34,7 +33,6 @@ public class DropDownBoxHandlings extends TestBase {
     @Test(priority = 2)
     public void TestDaysDropDown(){
 
-        driver.navigate().to("https://www.facebook.com");
         Select select=new Select(daysBox);
         Mylibraray.sleepForNow(2);
         select.selectByVisibleText("19");

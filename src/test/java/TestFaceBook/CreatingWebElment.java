@@ -1,22 +1,14 @@
-package Seleniums_Handlings;
+package TestFaceBook;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import Utilities.TestBase;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class CreatingWebElment {
-
+public class CreatingWebElment extends TestBase {
 
     @Test
     public void TestFaceBook(){
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver=new ChromeDriver();
-        driver.manage().window().maximize();
-
-        driver.navigate().to("https://www.facebook.com");
 
         /*
         to create the web element we will need 8 locators:
@@ -36,11 +28,6 @@ public class CreatingWebElment {
             PhoneNum.sendKeys("00000112312312");
 
         // formula to write xpath:   .//tagname[@valu1=' ' and @value2='' and  ...]
-
-
-
-
-
 
 
 
