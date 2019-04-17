@@ -1,0 +1,122 @@
+	/*
+		  8 locators: Id, Name, ClassName, xpath, css, tagname, linkedtext, partiallinkedtext.
+		  		
+		  			when to use xpath: if the id, name... are not unique, or dynamic.
+		  			
+		  			handle dynamic: absoulute xpath, create Lists of webelemnts use the index num.
+		  					
+		  				differennces between abs xpath and relitive xpath: 
+		  						abs: strats with /, checks from the roof of html code.
+		  						relative xpath: starts with //, looks for the elemnt at the random area of the page.
+		  						
+		  			navigate methods: 
+		  					refresh: driver.navigate().refrsh(); 
+		  					go back:  driver.navigate().back();
+		  					forward: driver.navigate.forward();
+		  					open web: driver.navigate().to(URL);
+		  					
+		  					driver.get(URL) vs Navigate.to(URL): 
+		  					get waits for page fully uploaded, navigate.to does not.  naviage.to is faster.
+		  				
+		  			to get the title: driver.getTitle();
+		  			
+		  			driver.close() vs driver.quite(): close() will close current tab, quite() closes all the tabs.
+		  			
+		  			waits: implicityWait & ExplicityWait
+		  					implicitywait: makes times out for locating the elemnt. 
+		  						driver.manage().timeouts().implicyWait(10, TimesUnit.second);
+		  						implicitywait only applies for FindElement(s).
+		  						
+		  						findElemnt vs FindElements: 
+		  							findElemnt returns single elemnt.==>WebElemnt.
+		  							findElements retuns list of elemnts ==>List<Webelement>
+		  					
+		  					ExplicityWait: particular WebElement or Expected Conditions, 
+		  							WebDriverWait wait=new WebDriverWait(driver, 10)
+		  							
+		  							
+		  			Selenium Exceptions: NOSuchElement, TimeOut, WebDriver, ElementisNotvisible.
+		  							
+		  				DropDown box with tag name of select:  
+		  								Select st=new Select(WebElemnt);
+		  								
+		  								st.SelectByvisibletext("text");   most secure one
+		  								st.SelectByIndex(index numer);
+		  								st.SelectByValue("value");
+		  								
+		  				DropDown box without tag name of select: 
+		  								Actions.moveEle.click  and then click the option' webElemnt.
+		  				
+		  				Boot Straps:  
+		  						with mouse-hover Actions.moveToElemnt(Webelemnt).perfprm()
+		  						
+		  				Actions methods: Actions act=new Actions(driver);  
+		  						moveeToElemnt, double, right lick, left clock, click and hold...
+		  									combination of mouse and keybord. 
+		  							
+		  				frames: switchTo().frame("frames ID);
+		  				
+		  				multi-Window:  List<String> allwindow = driver.getWindowHandles();
+		  							driver.SwitchTo().window(allwindow.get(indexnum));
+		  					
+		  				pop-up: Alert.dismiss().
+		  						if the pop has weblements , click close button.
+		  						if the pop does not have webElement. new Actions(driver).click().perform();
+		 
+		 				Radio Button: isSelect();  isDeselectd(),  !isSlected()
+		 				
+		 				Assertions: Assert, SoftAssert
+		 						Assert: if the condition is false, it stops the execution.
+		 						SoftAssert: if the condition is false, will still run
+		 						
+		 				CheckBox: isSelect();  isDeselectd(),  !isSlected();
+		 				
+		 				TestNG annotation: controls @Test(testNg's) methods
+		 				
+		 				
+		 				
+		 		Cucumber: 
+		 				Scenario vs Scenario Outlines:
+		 						Scenario Outlines has data Table (Example).
+		 				
+		 				6 syntax: Given, When, Then,  And,  But, *
+		 				 		@Given @When   @Then
+		 
+		 
+		 		Scenario log in:
+		 			And go to web
+		 			* log in 
+		 			* quite broser
+		 			 
+		 			@Given-go-to web
+		 			@Given log_in
+		 			
+		 			
+		 			BakcGround: executed before each scenario within the feautire life.
+		 			
+		 			
+		 			tagname: decides which feature file or scenario to run.
+		 			dryRun: true: runs Feature File.
+		 					false: runs Step-Defifnition then runs the featurefile.
+		 			
+		 			plugIn: genrate reports (html, jason, Junit, Usage report..)
+		 			
+		 			 glue:  defines where the step definition is.
+		 			
+		 			
+		 			@runfailed
+		 			Scenario Outline: 
+		 					When 
+		 					Then   '<   >'
+		 					
+		 				Example: 
+		 				|  username |
+		 				| dasdasd   |
+		 				|            |
+		 			
+		 			
+		 				
+		 			
+		 			
+		 			
+		 */
