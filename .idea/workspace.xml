@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca55a640-f525-4e64-b923-da7c85f80b1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PagesElements/FaceBookElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PagesElements/GoogleElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFaceBook/Assignemnt1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFaceBook/CreatingWebElment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFaceBook/Dependencies_Import.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFaceBook/DropDownBoxHandlings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestFaceBook/RadioButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestGoogle/googleSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Excel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Excel.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/ConfigReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Encapsulate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Encapsulate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/Encapsulate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/ExcelReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibraray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibraray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibraray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/TestBase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,12 +25,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+            <state relative-caret-position="420">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogle/googleSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="300">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,17 +53,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+            <state relative-caret-position="360">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" />
         <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/Dependencies_Import.java" />
         <option value="$PROJECT_DIR$/src/test/java/PagesElements/RadioButtonsElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/PagesElements/DropDownElemnts.java" />
@@ -96,17 +103,19 @@
         <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/RadioButton.java" />
         <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/DropDownBoxHandlings.java" />
         <option value="$PROJECT_DIR$/src/test/java/Seleniums_Handlings/CreatingWebElment.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" />
         <option value="$PROJECT_DIR$/src/test/java/PagesElements/FaceBookElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFaceBook/Assignemnt1.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFaceBook/DropDownBoxHandlings.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFaceBook/RadioButton.java" />
         <option value="$PROJECT_DIR$/src/test/java/PagesElements/GoogleElements.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestGoogle/googleSearch.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/ConfigurationReader.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java" />
       </list>
     </option>
   </component>
@@ -144,8 +153,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="49" />
     <option name="y" value="35" />
-    <option name="width" value="2522" />
-    <option name="height" value="1532" />
+    <option name="width" value="2524" />
+    <option name="height" value="1533" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,11 +207,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555436813373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555517145482" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
@@ -250,6 +259,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utilities.ExcelReader" />
+      <module name="Seleniums_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Assignemnt1.EnterInputs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Seleniums_Fundamentals" />
       <extension name="coverage">
@@ -262,22 +284,6 @@
       <option name="MAIN_CLASS_NAME" value="TestFaceBook.Assignemnt1" />
       <option name="METHOD_NAME" value="EnterInputs" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DropDownBoxHandlings" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Seleniums_Fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestFaceBook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seleniums_Handlings" />
-      <option name="MAIN_CLASS_NAME" value="TestFaceBook.DropDownBoxHandlings" />
       <properties />
       <listeners />
       <method v="2">
@@ -305,10 +311,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.googleSearch.SearchApple" />
+        <item itemvalue="Application.ExcelReader" />
         <item itemvalue="Application.ConfigReader" />
         <item itemvalue="TestNG.Assignemnt1.EnterInputs" />
         <item itemvalue="Application.Encapsulate" />
-        <item itemvalue="TestNG.DropDownBoxHandlings" />
       </list>
     </recent_temporary>
   </component>
@@ -341,12 +347,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="googleSearch_SearchApple - 2019.04.16 at 12h 17m 16s.xml">
-      <configuration name="googleSearch.SearchApple" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="googleSearch_SearchApple - 2019.04.16 at 12h 31m 39s.xml">
-      <configuration name="googleSearch.SearchApple" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="googleSearch_SearchApple - 2019.04.16 at 12h 32m 20s.xml">
       <configuration name="googleSearch.SearchApple" configurationId="TestNG" />
     </history-entry>
@@ -371,12 +371,17 @@
     <history-entry file="googleSearch_SearchApple - 2019.04.16 at 13h 20m 56s.xml">
       <configuration name="googleSearch.SearchApple" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="googleSearch_SearchApple - 2019.04.16 at 13h 47m 13s.xml">
+      <configuration name="googleSearch.SearchApple" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="googleSearch_SearchApple - 2019.04.17 at 12h 00m 16s.xml">
+      <configuration name="googleSearch.SearchApple" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1477" height="888" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25870648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2636816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,13 +414,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PagesElements/Assignment1Elements.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/PagesElements/DropDownElemnts.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/PagesElements/RadioButtonsElement.java" />
@@ -476,13 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConfigurationReader.properties" />
     <entry file="file://$PROJECT_DIR$/src/test/java/PagesElements/GoogleElements.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -496,40 +487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogle/googleSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ExcelReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="349">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -538,8 +499,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        <state relative-caret-position="399">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Encapsulate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/ConfigurationReader.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibraray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGoogle/googleSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

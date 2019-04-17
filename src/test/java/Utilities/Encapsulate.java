@@ -6,6 +6,7 @@ public class Encapsulate {
 
     final static private String GoogleWebsite="https://www.google.com";
 
+
     public static String getWebsiteFB(){
         return FaceBookWebsite;
     }
